@@ -15,11 +15,11 @@ module.exports = function (ctx) {
 
         extras: [
             'roboto-font',
-            'material-icons' // optional, you are not bound to it
-            // 'ionicons-v4',
-            // 'mdi-v3',
-            // 'fontawesome-v5',
-            // 'eva-icons'
+            'material-icons', // optional, you are not bound to it
+            'ionicons-v4',
+            'mdi-v3',
+            'fontawesome-v5',
+            'eva-icons'
         ],
 
         framework: {
@@ -37,6 +37,7 @@ module.exports = function (ctx) {
                 'QCardActions',
                 'QImg',
                 'QInnerLoading',
+                'QSpinnerOval',
             ],
 
             directives: [
@@ -46,9 +47,8 @@ module.exports = function (ctx) {
             // Quasar plugins
             plugins: [
                 'Notify'
-            ]
-
-            // iconSet: 'ionicons-v4'
+            ],
+            iconSet: 'mdi-v3'
             // lang: 'de' // Quasar language
         },
 
